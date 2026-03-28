@@ -1,0 +1,23 @@
+
+#include "drumfix_fe8.event"
+ALIGN 4
+voicegroup000:
+#incbin "FE8_NI_Map_2.bin"
+
+{
+#ifndef SongTableOffset
+#define SongTableOffset engage engage engage
+#define SongTable(engage) engage
+#endif
+}
+
+#define BattleMusicGroup 0
+#define MapMusicGroup 1
+#define SFXGroup 6
+
+{
+#include MusicEvents/Julius.event
+SongTable(JuliusID, Julius, MapMusicGroup)
+}
+
+#include "SoundroomInstaller.event"
