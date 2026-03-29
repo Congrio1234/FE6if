@@ -1,0 +1,7 @@
+#include "Tools/Tool Helpers.txt"
+//this file defines the macro:
+//setMugEntry(number, data, mouth_x, mouth_y, eye_x, eye_y)
+
+Roy_Mug:
+#incext PortraitFormatter "Roy.png"
+setMugEntry(0x2, Roy_Mug, 2, 6, 3, 4)

@@ -1,0 +1,3 @@
+#define Any 0xFF
+
+#define Prologue 0x0
