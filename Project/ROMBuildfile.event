@@ -16,6 +16,7 @@
     MESSAGE Used table space ends at currentOffset
 
     //Engine Hacks
+	#include "Graphics/MasterGraphicsInstaller.event"
     #include "EngineHacks/_MasterHackInstaller.event"
 	#include "MusicFolder/MusicInstaller.event"
     MESSAGE Used hax space ends at currentOffset
