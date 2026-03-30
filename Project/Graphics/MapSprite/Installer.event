@@ -1,0 +1,34 @@
+//First free SMS is 107
+#define Lord 107 
+
+//First free MMS is 127 and will show up if you've expanded classes.
+#define Lord2 127 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+//Copy from here 
+PUSH 
+ 
+SetSMS(Lord, 1, Lord_Data) 
+SetMMS(Lord2, Lord2_Data, DemonKingAP) 
+ 
+ 
+POP 
+//Copy until here  
+ 
+ 
+//SMS Image Data 
+ 
+ALIGN 4 
+Lord_Data: 
+#incbin "dmp/Lord.dmp" 
+ 
+ALIGN 4 
+Lord2_Data: 
+#incbin "dmp/Lord2.dmp" 
+ 
