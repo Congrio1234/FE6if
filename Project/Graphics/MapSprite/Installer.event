@@ -1,3 +1,4 @@
+#include "Internals.event"
 //First free SMS is 107
 #define Lord 107 
 
@@ -14,8 +15,8 @@
 //Copy from here 
 PUSH 
  
-SetSMS(Lord, 1, Lord_Data) 
-SetMMS(Lord2, Lord2_Data, DemonKingAP) 
+SetSMS(0x1, 0, Lord_Data) 
+SetMMS(0x1, Lord2_Data, NormalAP) 
  
  
 POP 
