@@ -1,1 +1,9 @@
-#include "Lord/Installer.event"
+ALIGN 4
+
+Lord:
+#incbin "Lord.dmp" 
+
+ALIGN 4
+
+Lord2:
+#incbin "Lord2.dmp" 
