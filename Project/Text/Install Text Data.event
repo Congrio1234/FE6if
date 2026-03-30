@@ -2357,6 +2357,38 @@ __TEXTPROCESSF72:
 #incext ParseFile ".TextEntries/text_buildfileEirikaHeightID.fetxt"
 setText($F72, __TEXTPROCESSF72)
 
+__TEXTPROCESSF73:
+#incext ParseFile ".TextEntries/text_buildfileJuliusText.fetxt"
+setText($F73, __TEXTPROCESSF73)
+
+__TEXTPROCESSF74:
+#incext ParseFile ".TextEntries/text_buildfileTheMilanorThievesAdvanceText.fetxt"
+setText($F74, __TEXTPROCESSF74)
+
+__TEXTPROCESSF75:
+#incext ParseFile ".TextEntries/text_buildfileMapBaText.fetxt"
+setText($F75, __TEXTPROCESSF75)
+
+__TEXTPROCESS212:
+#incext ParseFile ".TextEntries/text_buildfileRoyName.fetxt"
+setText($212, __TEXTPROCESS212)
+
+__TEXTPROCESS26E:
+#incext ParseFile ".TextEntries/text_buildfileRoyDesc.fetxt"
+setText($26E, __TEXTPROCESS26E)
+
+__TEXTPROCESS213:
+#incext ParseFile ".TextEntries/text_buildfileMarcusName.fetxt"
+setText($213, __TEXTPROCESS213)
+
+__TEXTPROCESS214:
+#incext ParseFile ".TextEntries/text_buildfilePrologueTitle.fetxt"
+setText($214, __TEXTPROCESS214)
+
+__TEXTPROCESS215:
+#incext ParseFile ".TextEntries/text_buildfileChp1Title.fetxt"
+setText($215, __TEXTPROCESS215)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

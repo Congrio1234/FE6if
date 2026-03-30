@@ -596,6 +596,6 @@
 #define RoyDesc $26E
 #define MarcusName $213
 #define PrologueTitle $214
-#define Chp1Title $215
+#define Chapter1Title $215
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT
