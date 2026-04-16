@@ -26,7 +26,7 @@ ALIGN 4
 MapData:
   #incbin "Prologue_data.dmp"
 
-SetChapterData(0, 1, 0, 2, 3, 4, MapData, 5, 0, 6)
+SetChapterData(0, 0x1, 0, 0x2, 0x3, 0x4, MapData, 5, 0, 0x6)
 
 ALIGN 4
 Map_Change_0:
@@ -42,6 +42,6 @@ MapChangesData:
   TileMap(1, 27, 10, -26, -9, Map_Change_1)
   TileMapEnd
 
-EventPointerTable(6, MapChangesData)
+EventPointerTable(0x6, MapChangesData)
 
 }

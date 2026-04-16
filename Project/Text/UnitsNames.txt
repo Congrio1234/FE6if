@@ -1,3 +1,4 @@
+ HEAD
 ## RoyName
 Roy[X]
 
@@ -8,4 +9,15 @@ Upstanding and idealistic.[X]
 
 
 ## MarcusName 
+
+# 0x212 RoyName
+Roy[X]
+
+
+# 0x26e RoyDesc
+Son of Marquess Pherae.[N]
+Upstanding and idealistic.[X]
+
+
+# 0x213 MarcusName
 Marcus[X]

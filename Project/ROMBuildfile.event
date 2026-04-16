@@ -7,8 +7,10 @@
     #include "repointedTextTable.event"
 
     //Text first for Text ID definitions
-    #include "Text/InstallTextData.event"
+    #include "Text/Install Text Data.event"
 	#include "Definitions/MusicDefinition.txt"
+	
+
     MESSAGE Used text space ends at currentOffset
 
     //CSV tables
@@ -19,16 +21,18 @@
 	#include "Graphics/MasterGraphicsInstaller.event"
     #include "EngineHacks/_MasterHackInstaller.event"
 	#include "MusicFolder/MusicInstaller.event"
+	#include "NewStuff/NewStuffInstaller.event"
     MESSAGE Used hax space ends at currentOffset
 
-	#ifdef USE_TEST_MAP
+	
     //Events
-    #include "Events/Release_map.event"
-    #include "Events/WorldMapEvents.event"
+    //#include "Events/Release_map.event"
+    //#include "Events/WorldMapEvents.event"
+	//#include "Events/MasterEventInstaller.event"
 
     //Maps
     #include "Maps/MasterMapInstaller.event"
-    #endif // USE_TEST_MAP
+   
 	
 	ASSERT (FreeSpaceEnd - currentOffset) // So that you don't overwrite vanilla tables if using default freespace
 	
