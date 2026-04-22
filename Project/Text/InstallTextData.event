@@ -2365,6 +2365,10 @@ __TEXTPROCESSF74:
 #incbin ".TextEntries/text_buildfileChapter1Title.fetxt.dmp"
 setText($F74, __TEXTPROCESSF74)
 
+__TEXTPROCESSF75:
+#incbin ".TextEntries/text_buildfilePrologueStart.fetxt.dmp"
+setText($F75, __TEXTPROCESSF75)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

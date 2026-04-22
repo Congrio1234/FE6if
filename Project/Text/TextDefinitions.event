@@ -591,5 +591,6 @@
 #define MarcusName $F72
 #define PrologueTitle $F73
 #define Chapter1Title $F74
+#define PrologueStart $F75
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT
