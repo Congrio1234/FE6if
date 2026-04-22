@@ -8,7 +8,7 @@
 
     //Text first for Text ID definitions
     #include "Text/Install Text Data.event"
-	#include "Definitions/MusicDefinition.txt"
+	#include "Definitions/DefinitionInstaller.event"
 	
 
     MESSAGE Used text space ends at currentOffset
