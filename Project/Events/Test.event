@@ -5,7 +5,6 @@
 
 EventPointerTable(0x7,ThisChapter)
 
-ORG StartOffset
 ThisChapter:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
@@ -44,13 +43,13 @@ ALIGN 4
 
 PlayerUnits:
 
- UNIT Roy EirikaLord Roy Level(20,Ally,True) [2,16] 0x0 0x0 0x0 0x1 [Rapier,Vulnerary,Metis's Tome] NoAI
+ UNIT Roy EirikaLord Roy Level(20,Ally,True) [2,16] 0x0 0x0 0x0 0x1 [Rapier,Vulnerary,MetissTome] NoAI
 
  UNIT Marcus Paladin Roy Level(1,Ally,False) [1,17] 0x0 0x0 0x0 0x1 [SilverLance,SteelSword] NoAI
  UNIT
 EnemyUnits:
  
- UNIT Gilliam Armour Knight Gilliam Level(5,Enemy,True) [22,4] 0x0 0x0 0x0 0x1 [SilverLance] NoAI
+ UNIT Gilliam Knight Gilliam Level(5,Enemy,True) [22,4] 0x0 0x0 0x0 0x1 [SilverLance] NoAI
  UNIT
 BeginningScene:
 
@@ -68,7 +67,7 @@ ENUN
 ENDA
 
 EndingScene:
-MoveToChapter(NextChapter)
+MoveToChapter(0x1)
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET
