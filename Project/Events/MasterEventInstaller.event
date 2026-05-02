@@ -1,6 +1,11 @@
-#include "WorldMapEvents.event"
+{
+#include "REDAs.event"
+}
 {
 #include "Macros.event"
+}
+{
+#include "WorldMapEvents.event"
 }
 {
 #include "Test.event"
